@@ -7,13 +7,14 @@ console.log("%cJS Lab Connected — Start completing the TODOs!", "font-weight:b
 // Task 2.1 — declare & reassign
 // Create let course = "CIS101"; display it usinng console.log(course), reassign to "CIS102"; display it again.
 // write code here
-
+console.log("CIS101")
 
 // Task 2.2 — const safety
 // Create const SCHOOL = "MyCollege"; then TRY to reassign it and observe the Console error. Add a comment explaining    why  reassignment fails.
 // NOTE: For now, keep the reassignment line commented so the file runs without errors.
 // const SCHOOL = "MyCollege";
 // SCHOOL = "OtherCollege"; // <-- Uncomment to see the error, then re-comment after testing
+const SCHOOL = "myColleage"
 
 
 // ==========================
@@ -23,6 +24,13 @@ console.log("%cJS Lab Connected — Start completing the TODOs!", "font-weight:b
 // Task 3.1 — arithmetic basics
 // Given let x = 8, y = 3; log x+y, x-y, x*y, x/y, x%y.
 // write code here
+let x = 8;
+let y = 3; 
+console.log(x+y)
+console.log(x-y)
+console.log(x*y)
+console.log(x/y)
+console.log(x%y)
 
 
 // Task 3.2 — number vs string
