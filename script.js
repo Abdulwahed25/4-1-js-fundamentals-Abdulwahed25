@@ -37,6 +37,11 @@ console.log(x%y)
 // Display results of "2" + 3, 2 + "3", and 2 + 3. Add a short comment: why do the first two concatenate?
 // write code here
 
+console.log("2" + 3) // because we are adding string + integer 
+console.log(2+"3") // it is int + string 
+console.log(2+3) // it is int +int
+
+
 
 // Read chapter 4 in zyBooks: Compound Assignment Operators
 
