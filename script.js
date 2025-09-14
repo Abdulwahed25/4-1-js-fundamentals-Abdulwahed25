@@ -144,7 +144,7 @@ function add(a,b){
     return a+b
 
 }
-console.log(add(a+b))
+console.log(add(1+2))
 
 
 
@@ -156,6 +156,7 @@ function cube(n){
 }
 
 
+
 // =================================
 // TODO-7: SCOPE & GLOBAL OBJECT (ESSENTIALS)
 // =================================
@@ -163,6 +164,12 @@ function cube(n){
 // Task 7.1 — var vs let scope
 // Declare var a = 1; let b = 2 inside a block { },  then try displaying both outside the block; observe differences.
 // write code here
+{
+    var h = 1; 
+    let e = 2;
+}
+console.log(a); 
+console.log(b);
 
 
 // ==================
