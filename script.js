@@ -111,6 +111,11 @@ switch (day) {
 // Task 5.1 — for loop sum
 // TODO: Sum integers 1..10 with a for loop; display the result of total sum.
 // write code here
+let z = 0 ;
+for(i =1; i <= 10 ; i++){s
+    z = z+i ;
+}
+console.log(z)
 
 
 // Task 5.2 — while loop
