@@ -26,6 +26,7 @@ const SCHOOL = "myColleage"
 // write code here
 let x = 8;
 let y = 3; 
+console.log("========task 3.1========")
 console.log(x+y)
 console.log(x-y)
 console.log(x*y)
