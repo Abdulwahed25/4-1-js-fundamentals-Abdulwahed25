@@ -82,7 +82,25 @@ else {
 //         - For any other value, log "unknown".
 // write code here
 
-let day = "mon"
+let day = "Mon"; 
+switch (day) {
+    case "Mon":
+    case "Tue":
+    case "Wed":
+    case "Thu":
+    case "Fri":
+      console.log("weekday");
+      break;
+  
+    case "Sat":
+    case "Sun":
+      console.log("weekend");
+      break;
+  
+    default:
+      console.log("unknown");
+  }
+
 
 // Read Chapter 4 in zyBooks: Conditional (ternary) operator
 
