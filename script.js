@@ -58,6 +58,20 @@ console.log(2+3) // it is int +int
 //         - "Young" if age is between 13 and 35
 //         - "Aged" if age > 35
 // write code here
+let age = prompt("put your age");
+
+if(age < 13){
+    console.log("Child");
+}
+else if(age >13 && age <35 ){
+    console.log("Young")
+}
+else {
+    console.log("Aged")
+}
+
+
+
 
 
 // Task 4.2 — Switch statement
@@ -67,6 +81,8 @@ console.log(2+3) // it is int +int
 //         - If it is "Sat" or "Sun", log "weekend".
 //         - For any other value, log "unknown".
 // write code here
+
+let day = "mon"
 
 // Read Chapter 4 in zyBooks: Conditional (ternary) operator
 
