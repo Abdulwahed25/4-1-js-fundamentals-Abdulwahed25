@@ -59,15 +59,16 @@ console.log(2+3) // it is int +int
 //         - "Aged" if age > 35
 // write code here
 let age = prompt("put your age");
+age = Number(age)
 
 if(age < 13){
     console.log("Child");
 }
 else if(age >13 && age <35 ){
-    console.log("Young")
+    console.log("Young");
 }
 else {
-    console.log("Aged")
+    console.log("Aged");
 }
 
 
@@ -112,16 +113,20 @@ switch (day) {
 // TODO: Sum integers 1..10 with a for loop; display the result of total sum.
 // write code here
 let z = 0 ;
-for(i =1; i <= 10 ; i++){s
+for(i =1; i <= 10 ; i++){
     z = z+i ;
 }
-console.log(z)
+console.log(z);
 
 
 // Task 5.2 — while loop
 // let t = 3; while(t > 0), decrement the value t variable in each iteration and display the result.
 // write code here
-
+let t = 3;
+while(t>0){
+    console.log(t);
+    t--;
+}
 
 // Read Chapter 4 in zyBooks: Do-While Loop
 // write code here
@@ -135,10 +140,20 @@ console.log(z)
 // Make a function add(a,b){ return a+b; } display the result of add(2,5).
 // write code here
 
+function add(a,b){
+    return a+b
+
+}
+console.log(add(a+b))
+
+
 
 // Task 6.2 — Arrow functions
 // Make an arrow function; const cube = n => n*n*n; cube(3)
 // write code here
+function cube(n){
+    return n = n*n*n 
+}
 
 
 // =================================
